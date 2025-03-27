@@ -40,7 +40,7 @@ const ParentPropsComponent: FC = () => {
             onChange={handleInputChange}
             placeholder="Name..."
           />
-        </label>
+        </label> 
       </div>
       <PropsComponent name={nameInput} age={ageInput} />
     </>
