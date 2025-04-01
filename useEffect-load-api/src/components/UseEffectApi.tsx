@@ -37,8 +37,8 @@ const UseEffectApi: FC = () => {
 
   useEffect(() => {
     // const newInterval = setInterval(() => {
-      fetchData();
-    // }, 2000);
+    fetchData();
+    // }, 10000);
 
     //   return () => clearInterval(newInterval)
   }, []);
@@ -57,7 +57,7 @@ const UseEffectApi: FC = () => {
             User name: {user.name.first} {user.name.last}
           </h2>
           <p>Email: {user.email}</p>
-          <p>Age: {user.dob.age}</p>
+          {/* <p>Age: {user.dob.age}</p> */}
         </>
       )}
     </>
